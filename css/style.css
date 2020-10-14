@@ -1,15 +1,48 @@
-  ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- }
-    
- li {
-    float: left;
-  }
+body{
+  background-color: white;
+}
+
+.container{
   
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5d178ed189414f0001cdfe88/1561825889907-WCNZ6L5WO6AWLJCO28QR/ke17ZwdGBToddI8pDm48kMFiMyT1nneRMhnmfuSfpxZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mlM0or4nqX7jrn5yWu0hA1QXedaIFqnAbw_tQShHbKg4-O_KAc44ak5jGzrnn7f3A/Florence+%281+of+1%29.jpg?format=500w);
+   background-repeat: no-repeat; 
+   background-size: cover;
+  margin: 20px;
+  padding: 400px;
+  
+  
+}
+
+
+/* Navigation bar for the top of each page*/
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+padding: 20px;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 15px;
+}
+
+/* body */
+
+.box{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
