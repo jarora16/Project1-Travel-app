@@ -1,15 +1,31 @@
-  ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- }
-    
- li {
-    float: left;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.container{
+  background-image: url(https://news.bitcoin.com/wp-content/uploads/2019/02/bank-of-spain.jpg);
+  background-repeat: no-repeat;
   
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  } 
+  padding: 400px;
+  color: white;
+}
