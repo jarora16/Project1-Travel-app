@@ -23,9 +23,23 @@ li a:hover {
   background-color: #111;
 }
 .container{
-  background-image: url(https://news.bitcoin.com/wp-content/uploads/2019/02/bank-of-spain.jpg);
-  background-repeat: no-repeat;
+  /* background-image: url(https://news.bitcoin.com/wp-content/uploads/2019/02/bank-of-spain.jpg); */
+  /* background-repeat: no-repeat; */
+  background-color: burlywood;
   
   padding: 400px;
-  color: white;
+  color: black;
+}
+.box{
+  width: 100%;
+}
+
+#search {
+  margin: 0 auto;
+  display: inline-block;
+}
+#aboutMe
+{
+  background-color: aquamarine;
+  color: black;
 }
