@@ -65,6 +65,16 @@ li a {
   text-decoration: none;
 }
 
+#crypto{
+  border: 5px solid black;
+  padding: 100px;
+}
+
+#foreign{
+  border: 5px solid black;
+  padding: 100px;
+}
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
