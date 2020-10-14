@@ -49,4 +49,44 @@ $("#user-input").on("submit", function(event) {
     // Prevent for submission from refreshing the page
     event.preventDefault();
     // console.log($("#user-currency").val());
+    var baseCurrency = $("#user-currency").val()
+    var userAmount = $("#user-amount").val()
+
+    // Check if either input is null
+    if (baseCurrency && userAmount) {
+        // Query URL
+        var queryURL ="https://api.exchangeratesapi.io/latest?base=" + baseCurrency;
+
+        // Query
+        $.ajax({
+            url: queryURL,
+            method: "GET"
+        }).then(function(response) {
+            // console.log(response);
+            // Update the heading
+            $("#foreign-head").text(userAmount + " " + baseCurrency + " equals:");
+            // Clear the view area
+            $("#foreign-view").empty();
+            // For each currency
+            $.each(currencyList, function(index, currency) {
+                // Create a table row
+                var trEl = $("<tr>");
+                    // Add a flag icon
+                    var flagEl = $("<td>");
+                    var imgEl = $("<img>").attr("src", "https://www.countryflags.io/" + currency.code.substr(0, 2) + "/shiny/16.png");
+                    flagEl.append(imgEl);
+                    trEl.append(flagEl);
+                    // Add the currency name
+                    var nameEl = $("<td>").text(currency.name);
+                    trEl.append(nameEl);
+                    // Add the currency rate
+                    var xrate = response.rates[currency.code]
+                    var rateEl = $("<td>").text((userAmount * xrate).toFixed(2));
+                    trEl.append(rateEl);            
+                    // console.log(flagCode + " " + currency.name + ": " + response.rates[currency.code]);
+                // Place the row to the table
+                $("#foreign-view").append(trEl);
+            })
+        });
+    }
 });
