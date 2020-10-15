@@ -13,9 +13,7 @@ div.container3 {
 }              
 div.container3 p {
    margin: 20px; 
-  /* position: absolute;                */
   top: 50%;                         
-  /* transform: translate(0, -50%)  */
   font-weight: bold;
   line-height: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
