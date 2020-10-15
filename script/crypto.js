@@ -62,7 +62,7 @@ $("#user-input").on("submit", function (event) {
   event.preventDefault();
   var baseCurrency = $("#user-currency").val();
   var userAmount = $("#user-amount").val();
-  $("#crypto").text(userAmount + " " + baseCurrency + "equals to:");
+  $("#crypto").text(userAmount + " " + baseCurrency + " equals to:");
   for (var i = 0; i < cryptoList.length; i++) {
     var cryptoCode = cryptoList[i].code;
 
