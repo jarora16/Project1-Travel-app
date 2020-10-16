@@ -1,13 +1,7 @@
 body {
-<<<<<<< HEAD
   background-color: white;
   /* background-image: url(https://static8.depositphotos.com/1384048/851/v/450/depositphotos_8518456-stock-illustration-background-currency-gold.jpg); */
   background-repeat: repeat;
-=======
-  
-  /* background-image: url(https://i.pinimg.com/originals/32/b8/77/32b877ed4aa7778cc7d43ebb7d95a6f1.png); */
-  background-repeat: no-repeat;
->>>>>>> 0678be79f8b8be011dc5e6ad55827fb4f818b07c
 }
 
 div.container3 {
@@ -54,14 +48,11 @@ li a {
   width: 100%;
 }
 
-<<<<<<< HEAD
 h1 {
   text-align: left;
   font-size: 30px;
 }
 
-=======
->>>>>>> 0678be79f8b8be011dc5e6ad55827fb4f818b07c
 h2 {
   text-align: center;
 }
@@ -91,6 +82,7 @@ li a {
   border: 5px solid black;
   padding: 100px;
   margin-left: 30px;
+  margin-right: 30px;
   text-align: center;
 }
 
@@ -98,6 +90,7 @@ li a {
   border: 5px solid black;
   padding: 100px;
   margin-right: 30px;
+  margin-left: 30px;
   text-align: center;
 }
 
@@ -105,19 +98,6 @@ li a {
 li a:hover {
   background-color: #111;
 }
-<<<<<<< HEAD
-=======
-.container {
-  /* background-image: url(https://news.bitcoin.com/wp-content/uploads/2019/02/bank-of-spain.jpg); */
-  /* background-repeat: no-repeat; */
-
-  padding: 400px;
-  color: black;
-}
-.box {
-  width: 100%;
-}
->>>>>>> 0678be79f8b8be011dc5e6ad55827fb4f818b07c
 
 #search {
   margin: 0 auto;
@@ -134,11 +114,6 @@ li a:hover {
   font-size: 15px;
   width: 800px;
   max-width: 80%;
-<<<<<<< HEAD
-=======
-  background-color: rgb((57, 57, 226) 133, 141);
-  border-radius: 5px;
->>>>>>> 0678be79f8b8be011dc5e6ad55827fb4f818b07c
   padding: 10px;
   box-shadow: 0 0 10px;
 }
@@ -150,22 +125,12 @@ li a:hover {
   padding: 40px;
   margin: 20px;
   font-size: 20px;
-<<<<<<< HEAD
-=======
 }
 
-/* footer */
-.footer{
-  text-align: center;
-  color: white;
-  margin: 50px;
->>>>>>> 0678be79f8b8be011dc5e6ad55827fb4f818b07c
-}
-
-.navbar{
+.navbar {
   background-color: #161616;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: white;
 }
