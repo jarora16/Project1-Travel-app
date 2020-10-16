@@ -67,6 +67,8 @@ $("#user-input").on("submit", function(event) {
             $("#foreign-head").text(userAmount + " " + baseCurrency + " equals:");
             // Clear the view area
             $("#foreign-view").empty();
+            // Set scrollbars for foreign div
+            $("#foreign").attr("style", "height:500px;overflow:auto;");
             // For each currency
             $.each(currencyList, function(index, currency) {
                 // Create a table row
