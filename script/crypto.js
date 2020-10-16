@@ -91,9 +91,16 @@ $("#user-input").on("submit", function (event) {
           response["Realtime Currency Exchange Rate"]["1. From_Currency Code"];
         var cryptoDiv = $("<tr>");
         var rowDiv = $("<td>");
-        $(rowDiv).text(cryptoType + ": " + cryptoRate.toFixed(2));
+        var shareDiv = $("<tr>");
+        var shareAmt = userAmount / parseFloat(cryptoRate);
+        console.log(baseCurrency + "currency");
+        $(rowDiv).text(cryptoType + " Exchangerate: " + cryptoRate.toFixed(2));
+        $(shareDiv).text("Share amount: " + shareAmt);
         $(cryptoDiv).append(rowDiv);
+        console.log(shareDiv + "div");
+        console.log(shareAmt + "Amt");
         $("#crypto").append(cryptoDiv);
+        $("#crypto").append(shareDiv);
       });
     }
     // input currency type
