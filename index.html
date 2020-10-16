@@ -3,25 +3,71 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hotel and Airbnb price Comparison</title>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Money for all</title>
+
         <!-- CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-        <!-- jQuery and JS bundle w/ Popper.js -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />     
     </head>
-
     <body>
-            <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
-            </ul>
+    <!--Navigation Bar-->
+    <header>
+        <nav class=" nav-bar">
+            <div class="container-fluid">
+              <ul class="nav-bar">
+                <li><a href="index.html">Home </a></li> 
+                <li><a href="about.html">Our Goal </a></li> 
+              </ul>
+            </div>
+        </nav>
+   </header>
+
+<div class="container"> 
+    <div class="row">
+    <div class="col" id = "crypto" style="font-size: 30px;" >
+        Crypto
+    </div>
+    <div class="col">
+        <form id="user-input">
+            <div class="row">
+                <div class="input-group-append">
+                    <select class="btn btn-outline-secondary dropdown-toggle" id="user-currency">
+                        <option selected disabled hidden>Select currency</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <input type="number" class="form-control" id="user-amount" aria-label="Text input for amount" step="0.01">
+                <button class="btn btn-outline-secondary" id="convert-button">Convert</button>
+            </div>
+        </form>
+    </div>
+    <div class="col" id = "foreign">
+        <p id="foreign-head" style="font-size: 30px;">Foreign Currency</p>
+        <table id="foreign-view"></table>
+    </div>
+    </div>
+</div>
+  
+<div class="footer"> 
+    <nav class="navbar fixed-bottom" style="background-color: #212529;">
+        <a class="navbar-brand" href="#"> About Us</a>
+    </nav>
+
+</div>
+
+
+
+            <!-- JS, Popper.js, and jQuery -->
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
-             
+            <!-- Link to foreign currency -->
+            <script type="text/javascript" src="script/currency.js"></script>
+            <!-- Link to crypto currency  -->
+            <script type="text/javascript" src="script/crypto.js"></script>
        
-        
-    </body>
-</html>
+            </body>
+    </html>
