@@ -4,6 +4,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.nav-bar {
+  font-size: 30px;
+  color: blue;
+}
+
 div.container3 {
   height: 100px;
   margin: 40px;
