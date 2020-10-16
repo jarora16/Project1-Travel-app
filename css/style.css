@@ -1,3 +1,6 @@
+main{
+  /* background-color: rgb(52, 240, 240); */
+}
 
 body{
   background-color: white;
@@ -129,8 +132,21 @@ li a:hover {
 }
 
 /* footer */
-.footer2 {
- text-align: center;
+.footer {
+  background-color: #2a2a2b;
+  text-align: center;
   color: white;
   margin: 50px;
 }
+
+.navbar{
+
+  background-color: #2a2a2b;
+
+}
+
+.navbar-brand{
+  color: white;
+}
+
+
