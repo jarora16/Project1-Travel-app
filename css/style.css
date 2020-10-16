@@ -1,58 +1,53 @@
-main{
-  /* background-color: rgb(52, 240, 240); */
-}
-
-body{
-  background-color: white;
+body {
+  
   /* background-image: url(https://i.pinimg.com/originals/32/b8/77/32b877ed4aa7778cc7d43ebb7d95a6f1.png); */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 div.container3 {
   height: 100px;
   margin: 40px;
-  padding: 200px 200px 400px 200px;
-  position: relative;  
-}              
+  padding: 20px 200px 400px 200px;
+  position: relative;
+}
 div.container3 p {
-   margin: 20px; 
-  top: 50%;                         
+  margin: 20px;
+  top: 50%;
   font-weight: bold;
   line-height: 30px;
-  font-family:'Times New Roman', Times, serif;
-}   
-
+  font-family: "Times New Roman", Times, serif;
+}
 
 /* Navigation bar for the top of each page*/
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #2a2a2b;
-padding: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a2a2b;
+  padding: 20px;
 }
 
 li {
-float: left;
+  float: left;
 }
 
 li a {
-display: block;
-color: whitesmoke;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 15px;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 /* body */
 
-.box{
+.box {
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
@@ -76,12 +71,12 @@ li a {
   text-decoration: none;
 }
 
-#crypto{
+#crypto {
   border: 5px solid black;
   padding: 100px;
 }
 
-#foreign{
+#foreign {
   border: 5px solid black;
   padding: 100px;
 }
@@ -90,14 +85,14 @@ li a {
 li a:hover {
   background-color: #111;
 }
-.container{
+.container {
   /* background-image: url(https://news.bitcoin.com/wp-content/uploads/2019/02/bank-of-spain.jpg); */
   /* background-repeat: no-repeat; */
-  
+
   padding: 400px;
   color: black;
 }
-.box{
+.box {
   width: 100%;
 }
 
@@ -107,46 +102,40 @@ li a:hover {
 }
 
 /* About me page */
-#aboutMe
-{
+#aboutMe {
   background-color: white;
   color: black;
 }
 
-.container{
-  /* border: 5px solid black; */
-  border-radius: 10px;
-  /* margin-top: 15px; */
-   margin-bottom: 15px; 
-  font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
+.container {
+  font-size: 15px;
+  width: 800px;
+  max-width: 80%;
+  background-color: rgb((57, 57, 226) 133, 141);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px;
 }
 
-.jumbotron{
+.jumbotron {
   border: 5px solid black;
   border-radius: 10px;
   padding: 40px;
   margin: 20px;
   font-size: 20px;
-
 }
 
 /* footer */
-.footer {
-  background-color: #2a2a2b;
+.footer{
   text-align: center;
   color: white;
   margin: 50px;
 }
 
 .navbar{
-
-  background-color: #2a2a2b;
-
+  background-color: #161616;
 }
 
 .navbar-brand{
   color: white;
 }
-
-
