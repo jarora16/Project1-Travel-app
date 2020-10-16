@@ -4,11 +4,6 @@ body {
   background-repeat: repeat;
 }
 
-.nav-bar {
-  font-size: 30px;
-  color: blue;
-}
-
 div.container3 {
   height: 100px;
   margin: 40px;
@@ -50,6 +45,7 @@ li a {
 
 .box {
   text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -74,6 +70,7 @@ li {
 }
 
 li a {
+  font-size: 20px;
   display: block;
   color: white;
   text-align: center;
@@ -84,20 +81,20 @@ li a {
 #crypto {
   border: 5px solid black;
   padding: 100px;
+  margin-left: 30px;
+  text-align: center;
 }
 
 #foreign {
   border: 5px solid black;
   padding: 100px;
+  margin-right: 30px;
+  text-align: center;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-}
-
-.box {
-  width: 100%;
 }
 
 #search {
